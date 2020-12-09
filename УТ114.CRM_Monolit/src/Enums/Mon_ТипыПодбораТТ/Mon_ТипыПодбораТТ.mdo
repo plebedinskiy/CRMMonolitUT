@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b353ea9-62c2-459b-8ca1-921afebf01fd">
+  <producedTypes>
+    <refType typeId="a75638ff-7a75-4f7d-acbf-c891c5dbaf80" valueTypeId="e744ad03-97e0-466a-83d1-bde6c84a77bf"/>
+    <listType typeId="572510ea-b79c-424d-994c-455cfada10a0" valueTypeId="16f147c5-77ff-4c62-bcd7-ce4571c875aa"/>
+    <managerType typeId="b063fe24-7e14-4578-8ba1-cb4531c4ba1f" valueTypeId="d75fe0ce-a28e-4330-8cb8-13db4fb592ab"/>
+  </producedTypes>
+  <name>Mon_ТипыПодбораТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mon Типы подбора ТТ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ca5210c5-7ece-43aa-8ebb-e51398f272fa">
+    <name>СогласованиеНаСторонеДистрибьютора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование на стороне дистрибьютора</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c25b76b-4d6c-447d-a9f7-f81e160717de">
+    <name>КодыИзМонолита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коды из монолита</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

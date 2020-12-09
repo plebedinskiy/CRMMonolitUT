@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="29fad1c4-0c52-4674-b020-a3f981d5bf8e" extendedConfigurationObject="050b09a5-e36c-42b6-b337-cdddd2968bea">
+  <producedTypes>
+    <objectType typeId="bc0b44e3-1572-4656-a725-c6db8e84a713" valueTypeId="5f261eb1-7566-4fe1-b359-17353954fd63"/>
+    <refType typeId="f39153f1-bd22-4576-a001-1dbd5e64f011" valueTypeId="ec509dc8-6284-4920-ae51-934f1754b989"/>
+    <selectionType typeId="8a613c22-732a-49e3-bec0-f0ad2f41f65a" valueTypeId="77d65cac-ab18-451a-9d20-c5ef57b57092"/>
+    <listType typeId="3bd1313c-403e-4cf6-8e4f-2c3dbb78b991" valueTypeId="13fd3f61-b413-4da6-a108-59d3566ab551"/>
+    <managerType typeId="cf3742d2-33b7-49a2-b5a2-73525176ad17" valueTypeId="ececa0c2-dd13-4dfb-978c-d01877488ed3"/>
+  </producedTypes>
+  <name>ПеремещениеТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

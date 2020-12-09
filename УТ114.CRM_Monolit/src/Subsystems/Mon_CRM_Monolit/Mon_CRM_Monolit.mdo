@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae75f7eb-3d07-4e47-957e-73693bcdb962">
+  <name>Mon_CRM_Monolit</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM:Monolit</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Mon_Логотип</picture>
+  </picture>
+  <content>Catalog.Mon_ТипыМонолита</content>
+  <content>Enum.Mon_ТипыПодбораТТ</content>
+  <content>Catalog.Mon_ШлюзыОрганизации</content>
+  <content>DataProcessor.Mon_Обмен</content>
+  <content>InformationRegister.Mon_ВходящиеДанные</content>
+  <content>InformationRegister.Mon_ИсходящиеДанные</content>
+  <content>XDTOPackage.Mon_ВидыОбменов</content>
+  <content>Enum.Mon_ВидыОбменов</content>
+  <content>InformationRegister.Mon_Логирование</content>
+  <content>InformationRegister.Mon_СоответствияНоменклатуры</content>
+  <content>CommonPicture.Mon_Логотип</content>
+</mdclass:Subsystem>

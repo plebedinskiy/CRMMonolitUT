@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d72adbaa-3749-4735-a080-ab4d124034a5" extendedConfigurationObject="48a11946-4d50-41a7-919b-49bf18403be5">
+  <producedTypes>
+    <refType typeId="d276f059-1a01-42cd-9d1f-fad136b207b0" valueTypeId="9d36787e-4f2a-44bd-91ad-07f0187b66ad"/>
+    <listType typeId="e1ec52e3-70b8-4d84-9952-be5fa6957c69" valueTypeId="8578360c-20d5-4d7d-977e-e456f0ad40fa"/>
+    <managerType typeId="0247507f-6792-4d8a-814e-00eb857bb9cd" valueTypeId="fd8fc87c-5292-4d36-bbb0-605c755c6009"/>
+  </producedTypes>
+  <name>ВариантыОбеспечения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="7ab11c32-e276-436e-b5ae-8b9145c1d6ba" extendedConfigurationObject="865e7fe8-0ba5-430f-8819-98ee2644d5c5">
+    <name>НеТребуется</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

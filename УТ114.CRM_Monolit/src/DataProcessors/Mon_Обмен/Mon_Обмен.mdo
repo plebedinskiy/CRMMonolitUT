@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a30faf78-e688-4ba9-ba6a-1cea0089fb98">
+  <producedTypes>
+    <objectType typeId="147bbf9c-53a5-41ce-8975-238139663a3c" valueTypeId="a5359937-0af0-433b-9375-2f410fef7601"/>
+    <managerType typeId="c21b1475-2b9a-4173-b5b6-7f4637690253" valueTypeId="a473a478-207b-4d83-bbb8-0e5c377d2726"/>
+  </producedTypes>
+  <name>Mon_Обмен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль CRM:Monolit</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Mon_Обмен.Form.Форма</defaultForm>
+  <attributes uuid="b985d296-59ee-44a5-a04e-c0652c4ed401">
+    <name>ВыгружатьСУдалением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать с удалением</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="54e635dc-376c-457a-a770-cf9627ca8928">
+    <name>ШлюзОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шлюз организации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Mon_ШлюзыОрганизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cea8e7d0-6f08-4666-aae8-95b5603b2a8e">
+    <name>ИспользоватьФоновыеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать фоновые задания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="15f4d5b6-0a76-4618-a5f6-6701d640f7a2">
+    <name>ПериодВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период выгрузки</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1aa8a02b-6325-4911-8247-6c2336c9dcaf">
+    <name>ТекстXML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст XML</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c47350f5-7173-4c84-984d-6e840ea12677">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ff52af1e-0520-4f20-a62a-b7a79fbf849c">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a3703a13-a28b-494d-8bd1-6b00750b2559">
+    <name>ФормаПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проверки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="56aa8d45-87e6-459b-a107-54972fcb4240">
+    <name>ФормаОчистки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма очистки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9812b42d-df75-4658-b382-69a947bf59d5">
+    <name>МакетПарсинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет парсинга</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

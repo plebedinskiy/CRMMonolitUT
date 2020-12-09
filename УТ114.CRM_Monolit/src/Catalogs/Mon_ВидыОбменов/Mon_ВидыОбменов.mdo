@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58415ae0-8847-4209-854e-c301963f95e9">
+  <producedTypes>
+    <objectType typeId="a1a5b5b4-661b-4a64-b7ca-0a688e235366" valueTypeId="e991abbd-8c04-414a-90f2-c21322d42693"/>
+    <refType typeId="02828687-e58b-4dec-9962-0c9dbeff6d4d" valueTypeId="0c7705fe-dad6-4828-b4fe-5ae43ec1e7cd"/>
+    <selectionType typeId="da939bec-4beb-4236-b11f-c40183916bbb" valueTypeId="8fd91cb3-033e-4bd0-a3ca-3adfd4a15b18"/>
+    <listType typeId="a128a887-967e-42cf-bcb6-0264873dd1ee" valueTypeId="7f28c1cc-b0bd-4c13-850d-f265fdaa9fba"/>
+    <managerType typeId="417e75f7-c7ea-4b09-8f51-34dc85fe396b" valueTypeId="acc1891e-09d5-4ab0-8701-d34fdf15af19"/>
+  </producedTypes>
+  <name>Mon_ВидыОбменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды обменов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Mon_ВидыОбменов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Mon_ВидыОбменов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1d1c6f9a-c0ca-46f1-a72a-47a85e51751e">
+    <name>НазваниеСхемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Название схемы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

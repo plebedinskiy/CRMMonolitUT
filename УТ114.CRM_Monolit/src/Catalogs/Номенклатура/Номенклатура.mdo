@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="285a7f39-6d4d-4064-87f6-bee0b339dac1" extendedConfigurationObject="fc59acc3-f1f7-4e3f-96da-e580f2c5a88f">
+  <producedTypes>
+    <objectType typeId="2ce391ff-0fe4-475b-8962-b8008c082f99" valueTypeId="64748a63-1175-499a-a79c-a91865dde818"/>
+    <refType typeId="0bc90c21-193d-4f42-b48d-1b370178127f" valueTypeId="c3c057a0-2c7b-40b8-8a1b-707cf7c4adfd"/>
+    <selectionType typeId="79169063-b8c0-4d14-9f56-6250a5a78f95" valueTypeId="9bbc60b0-f3cb-4ac0-9693-cde48b2a2958"/>
+    <listType typeId="a18d752a-b2c1-4095-adff-3a5850421fd8" valueTypeId="9f6d48c5-1888-49a6-8396-401b1e1538fb"/>
+    <managerType typeId="71891817-2d51-468e-bc34-0cdd3f3f8136" valueTypeId="039a39bd-9735-4292-8db5-d974c29952ca"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="bfbb8329-a5fd-4e5d-99f7-b5dab241fa07" extendedConfigurationObject="722c3d13-753d-4b4f-82b9-d41340f96d79">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="30741130-df9c-4646-9b45-f1d48c45de7b" extendedConfigurationObject="3d295926-ac21-4f62-b76e-64c929f1fc0e">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.УпаковкиЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

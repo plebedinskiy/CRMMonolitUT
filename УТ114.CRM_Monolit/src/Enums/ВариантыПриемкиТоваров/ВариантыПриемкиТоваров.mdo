@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9b4b1314-81b3-44f7-8733-4682462c64c2" extendedConfigurationObject="4ac76022-5cb3-45b4-bcb8-f601c15cee32">
+  <producedTypes>
+    <refType typeId="d6c3f902-e779-456e-b44d-bd43ed288730" valueTypeId="7acf5895-e70e-4bc3-9efc-2c51591c3165"/>
+    <listType typeId="8dfd8c19-f953-4ee5-87a9-989e1d300f57" valueTypeId="09059710-3a7c-4f2a-bc60-3f9e19501dde"/>
+    <managerType typeId="dc62d927-b9fb-445c-8d67-fb12502c060f" valueTypeId="63390e78-3452-4eb2-997b-da4135f5808e"/>
+  </producedTypes>
+  <name>ВариантыПриемкиТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="960dfe92-1399-4e5e-9a97-c7e87a35082c" extendedConfigurationObject="8d94a0e6-c8fc-4515-8e9a-c8a8e359a0a7">
+    <name>РазделенаТолькоПоНакладным</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

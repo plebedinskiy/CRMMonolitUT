@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9525358-2f76-4bdb-a6c0-b79b1c7a8538">
+  <name>Mon_ВидыОбменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды обменов</value>
+  </synonym>
+  <namespace>http://utmonolit.ru/doc</namespace>
+</mdclass:XDTOPackage>

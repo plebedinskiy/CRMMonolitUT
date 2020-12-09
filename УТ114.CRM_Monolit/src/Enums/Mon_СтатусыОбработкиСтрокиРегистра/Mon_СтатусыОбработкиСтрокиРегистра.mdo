@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f654fb06-338d-43af-97d2-9e4cab5365cf">
+  <producedTypes>
+    <refType typeId="1ab44c7d-569d-4656-ab85-05b25d768e7c" valueTypeId="7d58c413-5780-4aad-bfd4-cd48719a88fc"/>
+    <listType typeId="69bd1ba0-4a5d-4a1b-b75f-1c9257e3bf91" valueTypeId="05989a13-8858-415b-bbc8-755757c7d599"/>
+    <managerType typeId="c9830630-82b3-4ae4-9909-17b5dfb0b6fd" valueTypeId="3f1fc61e-68fa-4c54-a90f-7e4bc71133bd"/>
+  </producedTypes>
+  <name>Mon_СтатусыОбработкиСтрокиРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обработки строки регистра</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a81b25da-5ff9-4b09-8783-39ef1cc884e6">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efc0ad12-be8f-46fd-b634-3ef8b0bc1575">
+    <name>ОбработаноУспешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано успешно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1fe10b2-f85c-407e-ab1a-d67c89bac36e">
+    <name>ОбработаноСОшибкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано с ошибкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f8922f9-a9f2-4b42-8c83-d1b55f40a689">
+    <name>НеОбработано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обработано</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

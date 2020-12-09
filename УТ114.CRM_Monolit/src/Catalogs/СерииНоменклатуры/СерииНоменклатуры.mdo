@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5a5a2b95-6991-4db6-ae5a-aa3a798db19a" extendedConfigurationObject="8965f225-afbc-4ff7-ac96-b5f31f39e808">
+  <producedTypes>
+    <objectType typeId="1f584ad3-2014-45da-9aec-d9d3c5b40c2c" valueTypeId="9a859629-43bb-4dde-93fd-200055484096"/>
+    <refType typeId="155892d2-b95d-42ca-a213-12c5b3eafdba" valueTypeId="89305b1a-b23b-4fe9-aacd-3262125e178a"/>
+    <selectionType typeId="545a6fa3-a2d6-4bf8-b851-91a5e9d7d44e" valueTypeId="c437383d-3b2a-46c9-a358-723e0139de02"/>
+    <listType typeId="46cab706-7634-4ea7-a841-7811b277d932" valueTypeId="0221ef54-0db8-40dc-8f36-27616be9adaa"/>
+    <managerType typeId="f7af0d93-13fb-45e4-8c25-515549061185" valueTypeId="43659612-4a46-4e51-927f-6cde88e1f4a0"/>
+  </producedTypes>
+  <name>СерииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="b6407d1e-e342-4819-96a3-4534f798b66d" extendedConfigurationObject="4944dfbb-271e-4809-85a4-b8a501c13d06">
+    <name>ГоденДо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6780a51e-ba5f-4c55-82f5-e2c873331163" extendedConfigurationObject="a7b64344-fb5d-4b45-bf3d-a1bdd6ba2f1e">
+    <name>ДатаПроизводства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

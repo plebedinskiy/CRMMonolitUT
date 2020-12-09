@@ -1,0 +1,7 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://utmonolit.ru/doc">
+	<import namespace="http://utmonolit.ru/type"/>
+	<objectType name="exdata">
+		<property name="sv1" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://utmonolit.ru/type" name="sv2" type="d3p1:Str"/>
+	</objectType>
+</package>

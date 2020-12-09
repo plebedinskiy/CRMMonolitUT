@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf0d4e7c-bf30-46e6-b35d-f1f3b91ce0ae">
+  <name>Mon_ОтправкаДанныхИсходящегоРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка данных исходящего регистра</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

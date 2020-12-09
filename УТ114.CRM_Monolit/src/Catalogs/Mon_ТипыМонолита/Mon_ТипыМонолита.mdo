@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7f6496e-03c2-4a97-b8ab-22a09a608e1b">
+  <producedTypes>
+    <objectType typeId="0487bc95-605b-4be8-910e-fa7083a3dced" valueTypeId="7e738e5e-6b45-42da-8eda-ebe02c4835dd"/>
+    <refType typeId="c82a95e0-2fee-4926-99b5-6a3e37c88706" valueTypeId="b6aa5ec7-6c75-4720-8f88-9a35da3e93ba"/>
+    <selectionType typeId="6fb714ec-b974-4c34-ba24-c79f27dbe57f" valueTypeId="5952d568-ece5-41b6-a9d7-db936957c7a4"/>
+    <listType typeId="3ae31667-294e-41c9-a2c4-a8a998bc4791" valueTypeId="0e94168a-217d-4dc2-bcd8-9954c48496e8"/>
+    <managerType typeId="60338781-e227-4610-814d-05f4cb774b36" valueTypeId="ec2c1f87-5990-4a57-9a6c-ce9d663e6af0"/>
+  </producedTypes>
+  <name>Mon_ТипыМонолита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы монолита</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Mon_ТипыМонолита.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Mon_ТипыМонолита.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="161fdc47-d6a5-4827-a516-1794b128f38c">
+    <name>ТипПодбораТТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип подбора ТТ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Mon_ТипыПодбораТТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8980e61d-f04b-47e4-afd2-27da086a295a">
+    <name>ВебАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f5e42e8-fc6e-445b-a2c3-5150dd57fd23">
+    <name>АтрибутПроводная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Атрибут проводная</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="896b4f18-e0af-47b5-81d0-cf42935bc4dc">
+    <producedTypes>
+      <objectType typeId="006aceb5-a1e6-410d-86f7-bfee154c1a63" valueTypeId="cb9d5046-9b33-4a05-9f8a-09804c719c16"/>
+      <rowType typeId="2d80d158-5d1e-4cc1-95b6-d47976caff6f" valueTypeId="9c0895ff-6193-430d-be47-c59882ab1c87"/>
+    </producedTypes>
+    <name>ВидыОбменов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды обменов</value>
+    </synonym>
+    <attributes uuid="cdf9c4e0-78d2-4a12-b08b-c873bd44978f">
+      <name>ВидОбмена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид обмена</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Mon_ВидыОбменов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

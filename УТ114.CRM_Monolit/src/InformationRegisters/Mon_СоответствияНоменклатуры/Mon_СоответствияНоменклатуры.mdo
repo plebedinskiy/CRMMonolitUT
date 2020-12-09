@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c07918ba-816c-45b4-ba5d-8509282bbb7c">
+  <producedTypes>
+    <selectionType typeId="62ab85dd-9bc7-4629-99fa-446647d9bcb6" valueTypeId="980af819-17c7-4178-99a7-b5d8ef598150"/>
+    <listType typeId="22d4251d-2049-484d-a50c-1f1d5c00a674" valueTypeId="afbb7137-2963-46ba-bf52-bad8d2675d79"/>
+    <managerType typeId="08055746-6c72-47b6-a387-3eec2599e074" valueTypeId="2f12657e-3f58-4bf3-b2f1-14904eeb8825"/>
+    <recordSetType typeId="395bf850-30c8-44a8-9c39-dbadd2c126ed" valueTypeId="807c77d2-05a5-4d14-b02e-33ddf8823c3b"/>
+    <recordKeyType typeId="8d6d41bf-852d-48c5-96d7-5dc20775ee59" valueTypeId="5377c4db-d6b5-4a73-9a10-31cec8e9a29c"/>
+    <recordType typeId="50c25335-514f-4d92-82d0-053ed08f63cc" valueTypeId="fe4d3def-1f53-4479-9e13-ac9926b0f51e"/>
+    <recordManagerType typeId="828a9d18-6e8b-4242-ab75-e7a9fab5126c" valueTypeId="93b009de-8bc0-4532-89fe-edad06af6476"/>
+  </producedTypes>
+  <name>Mon_СоответствияНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Mon_СоответствияНоменклатуры.Form.ФормаСопоставленияНоменклатуры</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="261a51bb-c6ec-4491-9e90-33f397699cce">
+    <name>НоменклатураМонолит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура монолит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>55</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e450a2f5-1385-4df8-80e2-649d09eadb36">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9728e6f0-9f41-45f2-8af7-119ac4b948be">
+    <name>ТипМонолита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип монолита</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Mon_ТипыМонолита</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6f7e56f0-c831-4419-a871-64c9cefbc6cd">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f6159dc1-5738-49bf-be09-f4ebc2fab840">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="38f502fe-c440-41e2-ab6b-e0015a9ce178">
+    <name>УпаковкаМонолит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка монолит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>55</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e743588a-e446-45dd-a392-0b7f86e995eb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="12720767-d17a-403b-96b9-caf3558e2c71">
+    <name>ФормаСопоставленияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сопоставления номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

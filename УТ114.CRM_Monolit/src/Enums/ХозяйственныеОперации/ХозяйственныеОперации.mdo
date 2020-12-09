@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="180345d3-87fd-4917-a855-d2111fd8a3b4" extendedConfigurationObject="351b0c5b-74c3-4aaa-a93b-7246b941f797">
+  <producedTypes>
+    <refType typeId="6f57a920-5f9f-4483-a7c4-3b20d3039ee7" valueTypeId="abdc94ae-c629-42f1-8ad1-3f00c19b702d"/>
+    <listType typeId="a4cdc516-12b3-41b0-9afa-72f23f8d2a27" valueTypeId="38d7b7ef-7c04-4913-ad69-d06a86c62ff4"/>
+    <managerType typeId="c237ee4c-0eeb-4d25-a979-0e22321fbbef" valueTypeId="5f1dee94-5146-4a49-b7d1-1540be56b6ac"/>
+  </producedTypes>
+  <name>ХозяйственныеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="b2d7a305-8fd9-48f4-a761-f9673b798e6f" extendedConfigurationObject="1dfdfca3-6595-4afd-a12f-88601fce8c82">
+    <name>ПеремещениеТоваров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

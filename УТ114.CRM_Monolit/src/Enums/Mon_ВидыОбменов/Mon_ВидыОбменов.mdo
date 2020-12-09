@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33d3f894-fab3-4f96-baf4-9c15074e23d3">
+  <producedTypes>
+    <refType typeId="fb721482-6364-4ca6-af3d-ab3ab34bc2a6" valueTypeId="b9c4e351-9477-4ab4-bf3f-d02768b0b52f"/>
+    <listType typeId="7087b17e-23d2-449a-99dd-7eeae16a2b05" valueTypeId="15597a49-b502-4391-ac4f-67c312c2d3dd"/>
+    <managerType typeId="632c8f36-fe50-46f4-aabb-f0585bb8e809" valueTypeId="c29102e0-f242-4d4e-9c3b-96c07ecd2923"/>
+  </producedTypes>
+  <name>Mon_ВидыОбменов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды обменов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f1df27eb-902a-4ce6-b794-a0d460376df7">
+    <name>CRMOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMOrder</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e8143bb-3ac2-4e23-8468-20534e1ef35a">
+    <name>CRMWare</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMWare</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ecf1d29-67c6-47c1-94eb-0358f479174b">
+    <name>CRMWhBalanceEx</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMWhBalanceEx</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7ff766c-160d-4042-ac88-b65b1f4bfa47">
+    <name>CRMWhBalanceExParts</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMWhBalanceExParts</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41bda795-057f-4e0d-ac71-1aeb45ac0178">
+    <name>CRMSaldoEx</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMSaldoEx</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="483bb031-8142-4a04-9ba7-2d67bb618a2b">
+    <name>CRMDespatchEx</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMDespatchEx</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7236292e-6bf7-42c2-8a39-080c597f0079">
+    <name>CRMOrderStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMOrderStatus</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5432d137-175f-4080-9fc4-f83d84284731">
+    <name>CRMOrdRspEx</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMOrdRspEx</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58360a1f-203a-43aa-a922-20f99ce03767">
+    <name>CRMVendReceiptExParts</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMVendReceiptExParts</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26060c4f-4822-46ae-9963-8ad3a19cf783">
+    <name>CRMCreditCashOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMCreditCashOrder</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4967792-edd4-4673-8e4d-90aab97603ec">
+    <name>CRMClientAddressBanEx</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMClientAddressBanEx</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adac51b9-fe1c-4079-842f-7eb5b5419f00">
+    <name>CRMDeliverySchedule</name>
+    <synonym>
+      <key>ru</key>
+      <value>CRMDeliverySchedule</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
