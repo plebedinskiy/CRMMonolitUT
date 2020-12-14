@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Лебединский Павел</vendor>
-  <version>1.0.57</version>
+  <version>1.0.58</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
