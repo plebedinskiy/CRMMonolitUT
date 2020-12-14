@@ -194,6 +194,7 @@
 	extdata = ДокументDOM.ЭлементДокумента.ДочерниеУзлы[0];
     //scheme = extdata.ДочерниеУзлы[0];
 	scheme = extdata;
+	//@skip-warning
 	ИмяСхемы = scheme.ПолучитьАтрибут("name");
 	data = scheme.ПолучитьЭлементыПоИмени("data");
 	
