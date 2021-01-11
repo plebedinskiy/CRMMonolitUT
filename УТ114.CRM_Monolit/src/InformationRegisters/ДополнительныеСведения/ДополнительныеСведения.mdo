@@ -19,7 +19,6 @@
     <name>Значение</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -33,7 +32,6 @@
     <name>Объект</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -47,7 +45,6 @@
     <name>Свойство</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>

@@ -16,15 +16,11 @@
   <enumValues uuid="729e535e-d8cf-49fb-a288-fe089301f965" extendedConfigurationObject="86226876-65c7-4914-82f8-c5cfbea3ed56">
     <name>ВозвратТоваровОтКлиента</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    </extension>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
   </enumValues>
   <enumValues uuid="b28d83c8-4bd2-4676-b2e1-cda4025486c0" extendedConfigurationObject="4dec627e-3939-4191-a213-0cea734fc86c">
     <name>РеализацияКлиенту</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    </extension>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
   </enumValues>
 </mdclass:Enum>
