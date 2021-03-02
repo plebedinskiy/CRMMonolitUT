@@ -13,7 +13,8 @@
 	Результат.Добавить( "CRMDespatch" );
 	Результат.Добавить( "CRMCreditCashOrder" );
 	Результат.Добавить( "CRMCreditCashOrderOption" );
-	
+	Результат.Добавить( "CRMContragentOut" );
+	Результат.Добавить( "CRMOrderLineOption" );
 	
 	Возврат Результат;
 	

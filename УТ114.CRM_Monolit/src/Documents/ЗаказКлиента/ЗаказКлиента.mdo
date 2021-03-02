@@ -14,7 +14,6 @@
     <name>НомерПоДаннымКлиента</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -31,7 +30,6 @@
     <name>ДатаПоДаннымКлиента</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -48,7 +46,6 @@
     <name>Склад</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>

@@ -17,7 +17,6 @@
     <name>ВНаличии</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -35,7 +34,6 @@
     <name>КОтгрузке</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -53,7 +51,6 @@
     <name>Номенклатура</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -67,7 +64,6 @@
     <name>Характеристика</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -81,7 +77,6 @@
     <name>Назначение</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -95,7 +90,6 @@
     <name>Склад</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -109,7 +103,6 @@
     <name>Помещение</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -123,7 +116,6 @@
     <name>Серия</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
-      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>

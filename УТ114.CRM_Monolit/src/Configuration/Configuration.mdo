@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Лебединский Павел</vendor>
-  <version>1.0.58</version>
+  <version>1.0.66</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
@@ -85,12 +85,15 @@
   <enums>Enum.СтатусыПеремещенийТоваров</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <enums>Enum.ВариантыПриемкиТоваров</enums>
+  <enums>Enum.СпособыОпределенияСебестоимости</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
   <dataProcessors>DataProcessor.Mon_Обмен</dataProcessors>
   <informationRegisters>InformationRegister.Mon_ВходящиеДанные</informationRegisters>
   <informationRegisters>InformationRegister.Mon_ИсходящиеДанные</informationRegisters>
   <informationRegisters>InformationRegister.Mon_СоответствияНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Mon_Логирование</informationRegisters>
   <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
+  <informationRegisters>InformationRegister.Mon_КодыКонтрагентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

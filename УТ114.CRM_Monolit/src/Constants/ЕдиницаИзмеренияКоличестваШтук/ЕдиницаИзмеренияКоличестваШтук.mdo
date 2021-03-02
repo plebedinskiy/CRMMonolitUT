@@ -8,7 +8,6 @@
   <name>ЕдиницаИзмеренияКоличестваШтук</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConstantExtension">
-    <type>Checked</type>
     <typeExtension>
       <types>
         <state>Checked</state>
