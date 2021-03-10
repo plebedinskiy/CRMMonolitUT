@@ -19,6 +19,7 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="bb0e2877-f76c-4c35-894d-cf5e75bc8c3a"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="65913676-a6af-4e21-bf22-9a979e89370c"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="418e6dbb-82b9-41d2-bc27-a87aa7db6321"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ff49257c-5a30-4540-b188-a341fdc46d5d"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>Mon_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
