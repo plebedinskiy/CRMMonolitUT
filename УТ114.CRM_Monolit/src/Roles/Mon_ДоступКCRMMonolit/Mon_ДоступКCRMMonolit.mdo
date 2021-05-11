@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e20da3f-5fa2-4c0a-92ee-77dd235e2eab">
+  <name>Mon_ДоступКCRMMonolit</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ к CRMMonolit</value>
+  </synonym>
+</mdclass:Role>

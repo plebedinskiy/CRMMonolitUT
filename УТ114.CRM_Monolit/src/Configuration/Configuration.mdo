@@ -44,6 +44,7 @@
   </languages>
   <subsystems>Subsystem.Mon_CRM_Monolit</subsystems>
   <commonPictures>CommonPicture.Mon_Логотип</commonPictures>
+  <roles>Role.Mon_ДоступКCRMMonolit</roles>
   <commonModules>CommonModule.Mon_Парсер</commonModules>
   <commonModules>CommonModule.Mon_Сервис</commonModules>
   <commonModules>CommonModule.Mon_ЧтениеРегистра</commonModules>
