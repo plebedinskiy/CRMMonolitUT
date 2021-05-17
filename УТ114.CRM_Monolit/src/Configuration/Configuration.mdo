@@ -29,7 +29,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Лебединский Павел</vendor>
-  <version>1.0.73</version>
+  <version>1.0.75</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
@@ -52,6 +52,7 @@
   <commonModules>CommonModule.Mon_ЗаписьВРегистр</commonModules>
   <commonModules>CommonModule.Mon_Общий</commonModules>
   <commonModules>CommonModule.Mon_ОтправкаДанныхИсходящегоРегистра</commonModules>
+  <commonModules>CommonModule.УправлениеДоступомПереопределяемый</commonModules>
   <xDTOPackages>XDTOPackage.Mon_ВидыОбменов</xDTOPackages>
   <xDTOPackages>XDTOPackage.Mon_ОбщиеТипы</xDTOPackages>
   <xDTOPackages>XDTOPackage.Mon_Request</xDTOPackages>
