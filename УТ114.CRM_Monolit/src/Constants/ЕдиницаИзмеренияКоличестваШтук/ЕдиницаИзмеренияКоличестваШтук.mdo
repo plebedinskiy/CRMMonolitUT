@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="86ce5560-b906-4b49-852d-68b80cb191d0" extendedConfigurationObject="fa28d183-3d77-42f7-9bc2-eec8b620df89">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="86ce5560-b906-4b49-852d-68b80cb191d0">
   <producedTypes>
     <managerType typeId="2666aad0-abb5-45b4-b31b-53ee76ee6d03" valueTypeId="0a654a87-c368-422e-b8da-06a7e46e11ef"/>
     <valueManagerType typeId="d3c3a8ed-9bc6-4c51-bcce-a51f3e60c50b" valueTypeId="951fe388-2d91-46cd-a889-731b610e3fe7"/>
@@ -8,6 +8,7 @@
   <name>ЕдиницаИзмеренияКоличестваШтук</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
     <typeExtension>
       <types>
         <state>Checked</state>

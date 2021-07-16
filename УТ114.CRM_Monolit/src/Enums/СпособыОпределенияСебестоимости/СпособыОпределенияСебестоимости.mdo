@@ -7,28 +7,20 @@
   </producedTypes>
   <name>СпособыОпределенияСебестоимости</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:EnumExtension">
-    <extendedConfigurationObject>Checked</extendedConfigurationObject>
-  </extension>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
   <enumValues uuid="c5ae4991-e2b0-4178-b973-541566c914b2" extendedConfigurationObject="e96af551-1c6a-492d-8882-af7ecc0b9cc7">
     <name>Вручную</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    </extension>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
   </enumValues>
   <enumValues uuid="81cce3f2-dd15-489d-a5e7-6b6a2531e7c5" extendedConfigurationObject="d01c1a60-dafb-40c2-998f-96e983db6031">
     <name>ИзДокументаПродажи</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    </extension>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
   </enumValues>
   <enumValues uuid="d3af1852-506b-45b3-a500-5709f8ccdb08" extendedConfigurationObject="805477e7-74c6-4513-9ced-252906a45fd9">
     <name>ИзТекущегоДокумента</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:MdObjectExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    </extension>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
   </enumValues>
 </mdclass:Enum>

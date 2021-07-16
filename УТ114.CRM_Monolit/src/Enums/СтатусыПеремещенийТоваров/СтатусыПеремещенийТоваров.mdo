@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="85ade384-abae-41fc-82aa-52f8c00bce66" extendedConfigurationObject="32ba0d43-6767-40ad-8b30-5dc2c36499d8">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="85ade384-abae-41fc-82aa-52f8c00bce66">
   <producedTypes>
     <refType typeId="806d5471-9488-4006-836b-c2cf2f99433e" valueTypeId="1951dca2-1b76-479f-a162-0fd5e62da82c"/>
     <listType typeId="621811df-3e85-401d-a897-ac21c5f79cd6" valueTypeId="18647654-8bda-4c1e-b131-66149be7ba86"/>
@@ -8,12 +8,12 @@
   <name>СтатусыПеремещенийТоваров</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:EnumExtension"/>
-  <enumValues uuid="96dc4a70-76b7-483d-a8d8-4b85be7ab9c1" extendedConfigurationObject="6e2ca613-eb7c-4912-be81-bef3601db660">
+  <enumValues uuid="96dc4a70-76b7-483d-a8d8-4b85be7ab9c1">
     <name>Принято</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension"/>
   </enumValues>
-  <enumValues uuid="92716d7b-3083-4ae8-a303-96394cd59fdb" extendedConfigurationObject="a5e85983-5902-42af-877b-605641a2c560">
+  <enumValues uuid="92716d7b-3083-4ae8-a303-96394cd59fdb">
     <name>Отгружено</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:MdObjectExtension"/>

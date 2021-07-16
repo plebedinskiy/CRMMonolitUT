@@ -29,12 +29,12 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Лебединский Павел</vendor>
-  <version>1.0.76</version>
+  <version>1.0.75</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.18</compatibilityMode>
-  <languages uuid="88167f81-481e-49b5-b609-83b0767f68de" extendedConfigurationObject="ed1506c0-ae10-45f0-b356-945bab8ed3fd">
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="88167f81-481e-49b5-b609-83b0767f68de">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">

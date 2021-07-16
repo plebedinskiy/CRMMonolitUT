@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c73d6454-4d92-481a-acfb-3403b565957c" extendedConfigurationObject="4b3ddb64-46c5-4d8f-b8a7-ba7313e5defb">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c73d6454-4d92-481a-acfb-3403b565957c">
   <producedTypes>
     <managerType typeId="025ed5e7-65ab-4374-8566-e3c6c39e6986" valueTypeId="0d9ec5c8-50e4-4a8c-8c2a-ed71cc7b5e8f"/>
     <valueManagerType typeId="7a43d3eb-60c2-4d9c-aaa4-3b2830bdf1a8" valueTypeId="c70c5bc6-268d-475e-a747-5874bdc4e073"/>
@@ -8,6 +8,7 @@
   <name>ЕдиницаИзмеренияРазливнойПродукции</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
     <typeExtension>
       <types>
         <state>Checked</state>

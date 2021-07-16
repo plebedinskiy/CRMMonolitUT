@@ -3,7 +3,6 @@
   <name>ПолныеПрава</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:RoleExtension">
-    <extendedConfigurationObject>Checked</extendedConfigurationObject>
     <rights>Extended</rights>
   </extension>
 </mdclass:Role>

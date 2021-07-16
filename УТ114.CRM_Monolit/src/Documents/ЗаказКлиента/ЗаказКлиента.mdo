@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9361455c-e9dc-44dc-b2f7-b1f45c60ab22" extendedConfigurationObject="1ceef4a2-6b58-45a0-8a75-bb6e3004590f">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9361455c-e9dc-44dc-b2f7-b1f45c60ab22">
   <producedTypes>
     <objectType typeId="3b12e92d-b8c0-44a5-adb8-940928c31304" valueTypeId="1d9befdf-7ab2-4b9e-80ad-62b41f3667ec"/>
     <refType typeId="02cc63b9-4656-4e93-85bb-b5d845cfa34c" valueTypeId="b498d591-f296-4b71-b235-da4d2de561a7"/>
@@ -10,10 +10,11 @@
   <name>ЗаказКлиента</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DocumentExtension"/>
-  <attributes uuid="fd569676-d51d-4a74-b2ad-493e5601f841" extendedConfigurationObject="872dcece-786c-416e-bfa4-4ce98df56dd6">
+  <attributes uuid="fd569676-d51d-4a74-b2ad-493e5601f841">
     <name>НомерПоДаннымКлиента</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -26,10 +27,11 @@
     </extension>
     <type/>
   </attributes>
-  <attributes uuid="83d91ead-c82f-4ce9-a357-57385d6cbb88" extendedConfigurationObject="1c757d5d-0c97-4216-8b3f-90737b1b485f">
+  <attributes uuid="83d91ead-c82f-4ce9-a357-57385d6cbb88">
     <name>ДатаПоДаннымКлиента</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>
@@ -42,10 +44,11 @@
     </extension>
     <type/>
   </attributes>
-  <attributes uuid="fdd9fab0-d4b9-4170-8215-44883e107e4c" extendedConfigurationObject="21767e3f-5e9d-43d3-803c-eaf6279e10db">
+  <attributes uuid="fdd9fab0-d4b9-4170-8215-44883e107e4c">
     <name>Склад</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
       <typeExtension>
         <types>
           <state>Checked</state>

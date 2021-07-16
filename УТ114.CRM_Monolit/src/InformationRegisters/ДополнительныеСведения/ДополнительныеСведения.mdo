@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="255c30da-1d23-46b8-8a84-5ae8a08f4fc9" extendedConfigurationObject="3ad5d8a7-3071-46aa-aebf-306bdb67983b">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="255c30da-1d23-46b8-8a84-5ae8a08f4fc9">
   <producedTypes>
     <selectionType typeId="420debe6-cdfd-4259-94a5-bbb7c7f22816" valueTypeId="9fc38a8d-142e-4777-8f9b-828c34ef2c3a"/>
     <listType typeId="b8195fc0-a108-43a5-81f7-97f52a6a16ae" valueTypeId="177d81d1-d984-4f3b-9500-863947e58f55"/>
@@ -15,7 +15,7 @@
     <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
     <writeMode>Checked</writeMode>
   </extension>
-  <resources uuid="db1225e2-6584-4d7d-84b4-25a14978f062" extendedConfigurationObject="ab7ef662-71c1-4d51-9f0f-ea8c5ea3df8a">
+  <resources uuid="db1225e2-6584-4d7d-84b4-25a14978f062">
     <name>Значение</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -29,7 +29,7 @@
     </extension>
     <type/>
   </resources>
-  <dimensions uuid="a9ac5574-bb9b-40ed-9b63-137325332e95" extendedConfigurationObject="cb954476-c551-4a06-9bcd-18d67ba47dc8">
+  <dimensions uuid="a9ac5574-bb9b-40ed-9b63-137325332e95">
     <name>Объект</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
@@ -43,7 +43,7 @@
     </extension>
     <type/>
   </dimensions>
-  <dimensions uuid="4e650f5b-6637-4d1b-a321-83da0b4aee2b" extendedConfigurationObject="79201015-bfae-463e-81f1-0ae2d3066f3f">
+  <dimensions uuid="4e650f5b-6637-4d1b-a321-83da0b4aee2b">
     <name>Свойство</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
