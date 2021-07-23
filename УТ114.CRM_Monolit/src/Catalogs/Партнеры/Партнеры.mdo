@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="430d5a3d-51c3-42fb-9712-9bcd149756b2">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="430d5a3d-51c3-42fb-9712-9bcd149756b2">
   <producedTypes>
     <objectType typeId="3cdf7a9e-93b8-4792-9df1-7eeec7f6eace" valueTypeId="fff7593b-0470-4235-bdbc-13a765087eff"/>
     <refType typeId="402ac9f1-9658-445c-b94e-0c9c4e4efc57" valueTypeId="aab02fbd-b0b5-48e7-87f9-54328382ac47"/>
@@ -9,5 +9,37 @@
   </producedTypes>
   <name>Партнеры</name>
   <objectBelonging>Adopted</objectBelonging>
-  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <predefined>Checked</predefined>
+  </extension>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="29e3f5d4-b5de-471a-8aba-16b7b016e891">
+      <name>НеизвестныйПартнер</name>
+      <description>Неизвестный партнер</description>
+      <code xsi:type="core:StringValue">
+        <value>УТ-00000003</value>
+      </code>
+    </items>
+    <items id="f8ba4a2e-0386-43a0-8743-dbb6707359bc">
+      <name>РозничныйПокупатель</name>
+      <description>Розничный покупатель</description>
+      <code xsi:type="core:StringValue">
+        <value>УТ-00000002</value>
+      </code>
+    </items>
+    <items id="97403c2a-4260-481c-8835-1ea87e51a4aa">
+      <name>НашеПредприятие</name>
+      <description>Наше предприятие</description>
+      <code xsi:type="core:StringValue">
+        <value>УТ-00000001</value>
+      </code>
+    </items>
+  </predefined>
 </mdclass:Catalog>
