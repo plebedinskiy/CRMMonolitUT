@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eb426a6a-0ada-4a54-9b6f-4d8ff67ee11c">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eb426a6a-0ada-4a54-9b6f-4d8ff67ee11c">
   <producedTypes>
     <objectType typeId="015dec8f-7ca1-4930-885c-855184e4cb6c" valueTypeId="e9b01756-68a8-4bb0-befd-08c51dba888f"/>
     <refType typeId="054c06d5-822f-481d-9c63-25e687486c09" valueTypeId="7534e889-f377-4a2d-8e3c-bc711b0c0069"/>
@@ -16,35 +16,4 @@
   </extension>
   <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
-  <predefined>
-    <items id="66535b54-41ac-47a8-9f89-de4efe3b3c53">
-      <name>Справочник_Партнеры</name>
-      <description>Справочник &quot;Партнеры&quot;</description>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-      <isFolder>true</isFolder>
-      <content id="8a0d43e1-ff71-47e3-9191-98cee8de67d4">
-        <name>Справочник_Партнеры_Общие</name>
-        <description>Общие</description>
-        <code xsi:type="core:StringValue">
-          <value></value>
-        </code>
-      </content>
-      <content id="ed636ded-37c7-4b63-8576-2cf21fe4aebf">
-        <name>Справочник_Партнеры_Поставщики</name>
-        <description>Поставщики</description>
-        <code xsi:type="core:StringValue">
-          <value></value>
-        </code>
-      </content>
-      <content id="a76826d1-9d61-4603-bc0c-bef7e6e9903c">
-        <name>Справочник_Партнеры_Клиенты</name>
-        <description>Клиенты</description>
-        <code xsi:type="core:StringValue">
-          <value></value>
-        </code>
-      </content>
-    </items>
-  </predefined>
 </mdclass:Catalog>

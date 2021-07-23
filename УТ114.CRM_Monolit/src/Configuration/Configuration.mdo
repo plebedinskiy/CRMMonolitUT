@@ -33,7 +33,6 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.19</compatibilityMode>
   <languages uuid="88167f81-481e-49b5-b609-83b0767f68de">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
