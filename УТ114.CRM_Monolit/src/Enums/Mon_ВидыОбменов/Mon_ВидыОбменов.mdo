@@ -74,6 +74,7 @@
       <key>ru</key>
       <value>CRMVendReceiptExParts</value>
     </synonym>
+    <comment>Обмен получения приходов из монолита</comment>
   </enumValues>
   <enumValues uuid="26060c4f-4822-46ae-9963-8ad3a19cf783">
     <name>CRMCreditCashOrder</name>
