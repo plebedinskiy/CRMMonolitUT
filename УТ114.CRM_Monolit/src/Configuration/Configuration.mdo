@@ -97,7 +97,6 @@
   <informationRegisters>InformationRegister.Mon_СоответствияНоменклатуры</informationRegisters>
   <informationRegisters>InformationRegister.Mon_Логирование</informationRegisters>
   <informationRegisters>InformationRegister.ДополнительныеСведения</informationRegisters>
-  <informationRegisters>InformationRegister.Mon_КодыКонтрагентов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
