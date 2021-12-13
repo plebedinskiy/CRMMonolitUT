@@ -420,6 +420,70 @@
     <representationInContextMenu>Auto</representationInContextMenu>
   </items>
   <items xsi:type="form:Button">
+    <name>ЗагрузитьПриходы</name>
+    <id>54</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ЗагрузитьПриходыРасширеннаяПодсказка</name>
+      <id>55</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.ЗагрузитьПриходы</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <toolTipRepresentation>Auto</toolTipRepresentation>
+    <representationInContextMenu>Auto</representationInContextMenu>
+  </items>
+  <items xsi:type="form:Button">
+    <name>ЗагрузитьПриходыИзРегистра</name>
+    <id>56</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ЗагрузитьПриходыИзРегистраРасширеннаяПодсказка</name>
+      <id>57</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.ЗагрузитьПриходыИзРегистра</commandName>
+    <representation>Auto</representation>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <toolTipRepresentation>Auto</toolTipRepresentation>
+    <representationInContextMenu>Auto</representationInContextMenu>
+  </items>
+  <items xsi:type="form:Button">
     <name>ПерегрузитьНедогруженныеЗаказыИзПоследнегоЗапроса</name>
     <id>37</id>
     <visible>true</visible>
@@ -1172,6 +1236,40 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОткрытьФормуЧистки</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьПриходы</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить приходы</value>
+    </title>
+    <id>17</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьПриходы</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗагрузитьПриходыИзРегистра</name>
+    <title>
+      <key>ru</key>
+      <value>Загрузить приходы из регистра</value>
+    </title>
+    <id>18</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьПриходыИзРегистра</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6499944c-006a-4fe9-a69b-5713b3252509">
+  <name>Mon_Request_beta</name>
+  <synonym>
+    <key>ru</key>
+    <value>Request</value>
+  </synonym>
+  <comment>Фабрика запроса на перспективу</comment>
+  <namespace>http://utmonolit.ru/request</namespace>
+</mdclass:XDTOPackage>

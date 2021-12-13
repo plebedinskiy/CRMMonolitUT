@@ -55,6 +55,7 @@
   <xDTOPackages>XDTOPackage.Mon_ВидыОбменов</xDTOPackages>
   <xDTOPackages>XDTOPackage.Mon_ОбщиеТипы</xDTOPackages>
   <xDTOPackages>XDTOPackage.Mon_Request</xDTOPackages>
+  <xDTOPackages>XDTOPackage.Mon_Request_beta</xDTOPackages>
   <constants>Constant.ЕдиницаИзмеренияКоличестваШтук</constants>
   <constants>Constant.ЕдиницаИзмеренияРазливнойПродукции</constants>
   <catalogs>Catalog.Mon_ШлюзыОрганизации</catalogs>

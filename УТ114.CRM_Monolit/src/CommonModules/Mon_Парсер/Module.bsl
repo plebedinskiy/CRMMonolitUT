@@ -8,6 +8,8 @@
 	
 	// Поступление от поставщика
 	Результат.Добавить( "CRMVendReceipt" );
+	Результат.Добавить( "CRMVendReceiptParts" );
+	Результат.Добавить( "CRMVendReceiptPallets" );
 	Результат.Добавить( "CRMOrder" );
 	Результат.Добавить( "CRMWare" );
 	Результат.Добавить( "CRMDespatch" );

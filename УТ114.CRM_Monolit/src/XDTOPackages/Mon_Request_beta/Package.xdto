@@ -1,0 +1,25 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://utmonolit.ru/request">
+	<objectType name="extdata">
+		<property name="user" type="xs:string" form="Attribute"/>
+		<property name="passwd" type="xs:string" lowerBound="0" nillable="true" form="Attribute"/>
+		<property xmlns:d3p1="http://utmonolit.ru/request" name="scheme" type="d3p1:scheme"/>
+	</objectType>
+	<objectType name="scheme">
+		<property name="name" type="xs:string" form="Attribute"/>
+		<property name="request" type="xs:string" form="Attribute"/>
+		<property name="data">
+			<typeDef xsi:type="ObjectType">
+				<property name="s">
+					<typeDef xsi:type="ObjectType">
+						<property name="d">
+							<typeDef xsi:type="ObjectType">
+								<property name="f"/>
+							</typeDef>
+						</property>
+					</typeDef>
+				</property>
+				<property name="o"/>
+			</typeDef>
+		</property>
+	</objectType>
+</package>
