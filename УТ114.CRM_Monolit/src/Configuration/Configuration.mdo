@@ -12,6 +12,7 @@
     <usePurposes>Checked</usePurposes>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
     <logo>Extended</logo>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b823b18e-006d-4732-9b25-49db470c9b51"/>
@@ -29,10 +30,11 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Лебединский Павел</vendor>
-  <version>1.0.75</version>
+  <version>1.0.76</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <logo/>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.16</compatibilityMode>
   <languages uuid="88167f81-481e-49b5-b609-83b0767f68de">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
